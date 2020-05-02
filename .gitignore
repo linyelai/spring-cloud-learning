@@ -43,7 +43,6 @@ git.properties
 *.iml
 *.ipr
 *.iws
-.idea/
 **/*.iml
 **/.idea/
 *~
