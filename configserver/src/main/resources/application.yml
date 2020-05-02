@@ -32,6 +32,8 @@ spring:
       server:
         git:
           uri: https://github.com/linyelai/DisConfigServer
+          username: linyelai
+          password: linyeai8
   rabbitmq:
       host: 127.0.0.1
       port: 5672
