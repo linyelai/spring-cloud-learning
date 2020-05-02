@@ -1,4 +1,4 @@
-package com.neo.filter;
+package com.mujiejun.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;

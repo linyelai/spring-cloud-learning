@@ -1,4 +1,4 @@
-package com.neo.fallback;
+package com.mujiejun.fallback;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
