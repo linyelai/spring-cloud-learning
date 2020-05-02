@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @Autowired
     private Hello hello;
-    @RequestMapping("/hello")
+    @RequestMapping("/user")
     public String sayHello()
     {
         String result = hello.hello();
-        return "client1"+result;
+        return "client2"+result;
     }
 }

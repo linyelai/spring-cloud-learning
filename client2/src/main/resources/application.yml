@@ -3,10 +3,10 @@ eureka:
         serviceUrl:
             defaultZone: http://peer1:8761/eureka/,http://peer2:8765/eureka/
 server:
-    port: 8763
+    port: 8767
 spring:
     application:
-        name: client1
+        name: client2
 feign:
   client:
     config:

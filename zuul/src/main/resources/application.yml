@@ -1,0 +1,27 @@
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://peer1:8761/eureka/,http://peer2:8765/eureka/
+server:
+    port: 8766
+spring:
+    application:
+        name: zuul
+# 构建路由地址
+zuul:
+  routes:
+    # 这里可以自定义
+    client1:
+      # 匹配的路由规则
+      path: /client1/**
+      # 路由的目标服务名
+      serviceId: client1
+    # 这里可以自定义
+    client2:
+    # 匹配的路由规则
+      path: /client2/**
+    # 路由的目标服务名
+      serviceId: client2
+ribbon:
+    ReadTimeout: 5000
+    SocketTimeout: 5000
