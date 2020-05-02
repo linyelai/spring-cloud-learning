@@ -2,7 +2,14 @@ server:
   port: 8888
 
 management:
-  context-path: /admin
+#SpringCloud暴露接口，暴露/bus/refresh接口
+  security:
+    enabled: false
+
+#开启基本的权限，默认为true
+security:
+  basic:
+    enabled: false
   
 logging:
   level:
@@ -14,6 +21,10 @@ eureka:
     leaseRenewalIntervalInSeconds: 10
     statusPageUrlPath: /admin/info
     healthCheckUrlPath: /admin/health
+  client:
+          serviceUrl:
+              defaultZone: http://peer1:8761/eureka/,http://peer2:8765/eureka/
+  #management.endpoints.web.exposure.include=bus-refresh
 
 spring:
   cloud:
@@ -24,9 +35,5 @@ spring:
   rabbitmq:
       host: 127.0.0.1
       port: 5672
----
 
-eureka:
-    client:
-        serviceUrl:
-            defaultZone: http://peer1:8761/eureka/,http://peer2:8765/eureka/
+
