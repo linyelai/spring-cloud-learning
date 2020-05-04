@@ -1,6 +1,7 @@
 package com.mujiejun;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -25,6 +26,7 @@ import java.util.Map;
 @EnableHystrixDashboard
 @EnableAutoConfiguration
 @RefreshScope
+@MapperScan("com.mujiejun.mapper")
 public class EurekaClientApplication {
 
     public static void main(String[] args) {

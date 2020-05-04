@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mujiejun.mapper.ProductMapper">
+    <resultMap id="product" type="com.mujiejun.domain.Product">
+        <id column="id" property="id"></id>
+        <result column="product_name" property="productName"></result>
+        <result column="product_spu" property="productSpu"></result>
+        <result column="product_main_img" property="productMainImg"></result>
+        <result column="shop_id" property="shopId"></result>
+        <result column="create_time" property="createTime"></result>
+        <result column="update_time" property="updateTime"></result>
+        <result column="status" property="status"></result>
+        <result column="discount" property="discount"></result>
+        <result column="goods_cate_id" property="goodsCateId"></result>
+        <result column="goods_brand_id" property="goodsBrandId"></result>
+
+    </resultMap>
+    <insert id="addProduct" parameterType="Product">
+        insert into mall_product(product_name,product_spu,product_main_img,shop_id,create_time,update_time,status,discount,goods_cate_id,goods_brand_id)
+        values(#{productName},#{productSpu},#{productMainImg},#{shopId},#{createTime},#{updateTime},#{status},#{discount},#{goodsCateId},#{goodsBrandId})
+    </insert>
+    <select id="findProductByPage" resultMap="product" parameterType="java.util.Map">
+        select * from mall_product
+         <where>
+             <if test="productName!=null">product_name=#{productName} </if>
+             <if test="productSpu!=null"> and product_spu=#{productSpu} </if>
+             <if test="status!=null">and status=#{status} </if>
+             <if test="startTime!=null">
+                 <![CDATA[
+                     create_time >= #{startTime,jdbcType=DATE}
+
+                  ]]>
+             </if>
+             <if test="endTime!=null">
+                 <![CDATA[
+                     create_time >= #{endTime,jdbcType=DATE}
+
+                  ]]>
+             </if>
+         </where>
+         limit #{currenPage-1}*#{pageSize},#{currenPage}*#{pageSize}
+    </select>
+    <!-- 根据id查询商品信息-->
+    <select id="findProductById" resultMap="product" parameterType="java.lang.Integer">
+        select * from mall_product
+        where id = #{id}
+        limit 1;
+    </select>
+    <!--更新商品信息-->
+    <update id="updateProduct" parameterType="product">
+        update mall_product
+        <trim prefix="set" suffixOverrides=",">
+            <if test="productName!=null">product_name=#{productName},</if>
+            <if test="productSpu!=null">product_spu=#{productSpu},</if>
+            <if test="productMainImg!=null">product_main_img=#{productMainImg},</if>
+            <if test="status!=null">status=#{status},</if>
+            <if test="discount!=null">discount=#{discount},</if>
+            <if test="goodsCateId!=null">goodsCateId=#{goodsCateId},</if>
+            <if test="goodsBrandId!=null">goodsBrandId=#{goodsBrandId},</if>
+            update_time = now()
+        </trim>
+
+        WHERE id=#{id}
+    </update>
+    <update id="deleteProduct" parameterType="java.lang.Integer">
+         update mall_product set deleted = 1
+         where id = #{id}
+    </update>
+</mapper>
