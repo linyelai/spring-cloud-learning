@@ -16,22 +16,47 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+            <state relative-caret-position="101">
+              <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/controller/ProductController.java">
+      <file leaf-file-name="ProductMegHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/handler/ProductMegHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#525#578#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/config/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1044#1102#1" expanded="true" />
+                <element signature="e#1205#1268#1" expanded="true" />
+                <element signature="e#1420#1509#1" expanded="true" />
+                <element signature="e#1519#1556#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/mapper/ProductMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,10 +64,38 @@
       <file leaf-file-name="ProductMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/mapper/ProductMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="225">
+              <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/service/ProductService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EurekaClientApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/EurekaClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1263#1264#0" expanded="true" />
+                <element signature="e#1337#1338#0" expanded="true" />
+                <element signature="e#1531#1581#0" expanded="true" />
+                <element signature="e#1531#1581#0" expanded="true" />
+                <element signature="e#1531#1581#0" expanded="true" />
+                <element signature="e#1531#1581#0" expanded="true" />
+                <element signature="e#1843#1941#0" expanded="true" />
+                <element signature="e#1843#1941#0" expanded="true" />
+                <element signature="e#1843#1941#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,8 +104,8 @@
       <file leaf-file-name="ProductServiceImp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/service/ProductServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+            <state relative-caret-position="329">
+              <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#714#715#0" expanded="true" />
@@ -62,60 +115,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Propagation.class" pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar!/org/springframework/transaction/annotation/Propagation.class">
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/controller/ProductController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Isolation.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar!/org/springframework/transaction/annotation/Isolation.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Transactional.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/mapper/ProductMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaClientApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/EurekaClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+            <state relative-caret-position="99">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1351#1352#0" expanded="true" />
-                <element signature="e#1425#1426#0" expanded="true" />
-                <element signature="e#1931#2029#0" expanded="true" />
-                <element signature="e#1931#2029#0" expanded="true" />
-                <element signature="e#1931#2029#0" expanded="true" />
-                <element signature="e#2137#2138#0" expanded="true" />
-                <element signature="e#2186#2187#0" expanded="true" />
+                <element signature="e#674#727#1" expanded="true" />
+                <element signature="e#855#897#1" expanded="true" />
+                <element signature="e#922#979#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,8 +133,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="350">
+              <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -136,8 +145,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -145,6 +154,7 @@
     <findStrings>
       <find>findProductById</find>
       <find>product</find>
+      <find>factory</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -166,15 +176,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/domain/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/mapper/ProductMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/EurekaClientApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/mapper/ProductMapper.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/EurekaClientApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/mapper/ProductMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/service/ProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/service/ProductServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/handler/ProductMegHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mujiejun/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -194,12 +206,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="provider" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
@@ -273,6 +279,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mujiejun" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mujiejun" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,6 +298,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mujiejun" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="provider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mujiejun" type="462c0819:PsiDirectoryNode" />
+              <item name="handler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="provider" type="b2602c69:ProjectViewProjectNode" />
@@ -319,78 +343,25 @@
             </path>
             <path>
               <item name="provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mujiejun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="mujiejun" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="provider" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="provider" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.amqp:spring-amqp:1.7.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="provider" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.amqp:spring-amqp:1.7.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-amqp-1.7.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="provider" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.amqp:spring-amqp:1.7.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-amqp-1.7.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="amqp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.amqp:spring-rabbit:1.7.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.amqp:spring-rabbit:1.7.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-rabbit-1.7.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="provider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.amqp:spring-rabbit:1.7.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-rabbit-1.7.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbit" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -407,6 +378,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../taobao/product-service" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mujiejun.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\work\git\spring-cloud\provider\src\main\java\com\mujiejun\mapper" />
       <recent name="D:\work\git\spring-cloud\provider\src\main\resources" />
@@ -548,7 +522,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -557,19 +530,19 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10468521" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16105418" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47281712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0049423394" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.352123" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26281112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42833608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4892916" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -586,12 +559,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/mujiejun/controller/ProductController.java</url>
-          <line>19</line>
+          <line>33</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mujiejun/controller/ProductController.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -617,14 +596,15 @@
         <state relative-caret-position="900">
           <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
-            <element signature="e#1931#2029#0" expanded="true" />
-            <element signature="e#1931#2029#0" expanded="true" />
-            <element signature="e#1931#2029#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1531#1581#0" expanded="true" />
+            <element signature="e#1531#1581#0" expanded="true" />
+            <element signature="e#1531#1581#0" expanded="true" />
+            <element signature="e#1531#1581#0" expanded="true" />
+            <element signature="e#1843#1941#0" expanded="true" />
+            <element signature="e#1843#1941#0" expanded="true" />
+            <element signature="e#1843#1941#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -648,16 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -674,73 +644,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/EurekaClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
-            <element signature="e#1931#2029#0" expanded="true" />
-            <element signature="e#1931#2029#0" expanded="true" />
-            <element signature="e#1931#2029#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2186#2187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="42" column="17" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/mapper/ProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="9" column="34" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/mapper/ProductMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="186" column="0" lean-forward="false" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#525#578#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="26" column="15" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="15" />
-          <folding />
+          <folding>
+            <marker date="1588351709938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1588351709938" expanded="false" signature="166:451" ph="..." />
+            <marker date="1588351709938" expanded="true" signature="453:559" ph="@{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -748,14 +660,215 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-125">
           <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <marker date="1588351709938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1588351709938" expanded="false" signature="356:367" ph=" { " />
+            <marker date="1588351709938" expanded="false" signature="386:392" ph=" }" />
+            <marker date="1588351709938" expanded="false" signature="416:427" ph=" { " />
+            <marker date="1588351709938" expanded="false" signature="445:451" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar!/org/springframework/transaction/annotation/Propagation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <marker date="1588351709938" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1588351709938" expanded="false" signature="374:385" ph=" { " />
+            <marker date="1588351709938" expanded="false" signature="404:410" ph=" }" />
+            <marker date="1588351709938" expanded="false" signature="434:445" ph=" { " />
+            <marker date="1588351709938" expanded="false" signature="463:469" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.3.RELEASE/spring-data-redis-1.8.3.RELEASE.jar!/org/springframework/data/redis/cache/RedisCacheManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <marker date="1588581417110" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1588581417110" expanded="true" signature="160:1053" ph="..." />
+            <marker date="1588581417110" expanded="false" signature="1594:1605" ph=" { " />
+            <marker date="1588581417110" expanded="false" signature="1652:1658" ph=" }" />
+            <marker date="1588581417110" expanded="true" signature="1753:1810" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="1930:2372" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="2340:2354" ph="cacheNames = " />
+            <marker date="1588581417110" expanded="true" signature="2364:2365" ph="" />
+            <marker date="1588581417110" expanded="true" signature="2435:2677" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="2445:2456" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="2597:2602" ph="" />
+            <marker date="1588581417110" expanded="true" signature="2640:2646" ph="" />
+            <marker date="1588581417110" expanded="true" signature="2659:2661" ph="." />
+            <marker date="1588581417110" expanded="true" signature="2661:2670" ph="empty" />
+            <marker date="1588581417110" expanded="false" signature="2726:2737" ph=" { " />
+            <marker date="1588581417110" expanded="false" signature="2764:2770" ph=" }" />
+            <marker date="1588581417110" expanded="false" signature="2832:2843" ph=" { " />
+            <marker date="1588581417110" expanded="false" signature="2874:2880" ph=" }" />
+            <marker date="1588581417110" expanded="false" signature="2942:2953" ph=" { " />
+            <marker date="1588581417110" expanded="false" signature="2996:3002" ph=" }" />
+            <marker date="1588581417110" expanded="true" signature="3058:3145" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="3083:3101" ph="" />
+            <marker date="1588581417110" expanded="true" signature="3130:3131" ph="?)" />
+            <marker date="1588581417110" expanded="true" signature="3131:3134" ph=" ?: " />
+            <marker date="1588581417110" expanded="true" signature="3227:3302" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="3359:4062" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="3484:3494" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="3522:3535" ph="" />
+            <marker date="1588581417110" expanded="true" signature="3601:3616" ph="[]" />
+            <marker date="1588581417110" expanded="true" signature="3616:3617" ph="" />
+            <marker date="1588581417110" expanded="true" signature="3628:3639" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="3721:3729" ph=" += " />
+            <marker date="1588581417110" expanded="true" signature="3734:3749" ph="cacheNames" />
+            <marker date="1588581417110" expanded="true" signature="3749:3750" ph="" />
+            <marker date="1588581417110" expanded="true" signature="3763:3764" ph="" />
+            <marker date="1588581417110" expanded="true" signature="3802:3803" ph="" />
+            <marker date="1588581417110" expanded="true" signature="3818:3826" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="3912:3918" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="3931:3939" ph="" />
+            <marker date="1588581417110" expanded="true" signature="3974:3979" ph=" += " />
+            <marker date="1588581417110" expanded="true" signature="4006:4007" ph="" />
+            <marker date="1588581417110" expanded="true" signature="4173:4960" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="4243:4260" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="4301:4309" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="4322:4337" ph="cacheNames" />
+            <marker date="1588581417110" expanded="true" signature="4395:4401" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="4414:4422" ph="" />
+            <marker date="1588581417110" expanded="true" signature="4447:4454" ph="var" />
+            <marker date="1588581417110" expanded="true" signature="4506:4514" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="4594:4599" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="4608:4615" ph="" />
+            <marker date="1588581417110" expanded="true" signature="4647:4648" ph="" />
+            <marker date="1588581417110" expanded="true" signature="4654:4663" ph="name" />
+            <marker date="1588581417110" expanded="true" signature="4663:4671" ph=" ≡ " />
+            <marker date="1588581417110" expanded="true" signature="4680:4681" ph="" />
+            <marker date="1588581417110" expanded="true" signature="4681:4682" ph="" />
+            <marker date="1588581417110" expanded="true" signature="4818:4819" ph="" />
+            <marker date="1588581417110" expanded="true" signature="4849:4850" ph="" />
+            <marker date="1588581417110" expanded="true" signature="4875:4880" ph=" += " />
+            <marker date="1588581417110" expanded="true" signature="4904:4905" ph="" />
+            <marker date="1588581417110" expanded="true" signature="4966:4984" ph="/**...*/" />
+            <marker date="1588581417110" expanded="true" signature="5057:5190" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="5067:5072" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="5123:5131" ph="" />
+            <marker date="1588581417110" expanded="true" signature="5131:5147" ph="" />
+            <marker date="1588581417110" expanded="true" signature="5152:5155" ph=" ?: " />
+            <marker date="1588581417110" expanded="true" signature="5182:5183" ph="" />
+            <marker date="1588581417110" expanded="false" signature="5240:5251" ph=" { " />
+            <marker date="1588581417110" expanded="false" signature="5303:5309" ph=" }" />
+            <marker date="1588581417110" expanded="true" signature="5366:5592" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="5376:5380" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="5644:5858" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="5654:5658" ph="var" />
+            <marker date="1588581417110" expanded="true" signature="5689:5690" ph="" />
+            <marker date="1588581417110" expanded="true" signature="5710:5711" ph="" />
+            <marker date="1588581417110" expanded="true" signature="5739:5745" ph="" />
+            <marker date="1588581417110" expanded="true" signature="5757:5762" ph="[" />
+            <marker date="1588581417110" expanded="true" signature="5766:5767" ph="]" />
+            <marker date="1588581417110" expanded="true" signature="5795:5816" ph="" />
+            <marker date="1588581417110" expanded="true" signature="5826:5829" ph=" ?: " />
+            <marker date="1588581417110" expanded="true" signature="5912:6659" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="5922:5931" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="5941:5956" ph="[]" />
+            <marker date="1588581417110" expanded="true" signature="5985:5996" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="6053:6054" ph="" />
+            <marker date="1588581417110" expanded="true" signature="6090:6091" ph="" />
+            <marker date="1588581417110" expanded="true" signature="6110:6118" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="6210:6216" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="6229:6237" ph="" />
+            <marker date="1588581417110" expanded="true" signature="6273:6274" ph="" />
+            <marker date="1588581417110" expanded="true" signature="6307:6308" ph="" />
+            <marker date="1588581417110" expanded="true" signature="6341:6346" ph=" += " />
+            <marker date="1588581417110" expanded="true" signature="6373:6374" ph="" />
+            <marker date="1588581417110" expanded="true" signature="6446:6447" ph="" />
+            <marker date="1588581417110" expanded="true" signature="6461:6462" ph="" />
+            <marker date="1588581417110" expanded="true" signature="6480:6481" ph="" />
+            <marker date="1588581417110" expanded="true" signature="6493:6508" ph="warnEnabled" />
+            <marker date="1588581417110" expanded="true" signature="6508:6509" ph="" />
+            <marker date="1588581417110" expanded="true" signature="6709:7548" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="6726:6731" ph="" />
+            <marker date="1588581417110" expanded="false" signature="6760:6892" ph="doInRedis(connection) → {" />
+            <marker date="1588581417110" expanded="true" signature="6909:6920" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="6983:7001" ph="keySerializer" />
+            <marker date="1588581417110" expanded="true" signature="7040:7051" ph="val" />
+            <marker date="1588581417110" expanded="true" signature="7104:7105" ph="" />
+            <marker date="1588581417110" expanded="true" signature="7135:7136" ph="" />
+            <marker date="1588581417110" expanded="false" signature="7525:7540" ph="}" />
+            <marker date="1588581417110" expanded="false" signature="7600:7611" ph=" { " />
+            <marker date="1588581417110" expanded="false" signature="7639:7645" ph=" }" />
+            <marker date="1588581417110" expanded="false" signature="7694:7705" ph=" { " />
+            <marker date="1588581417110" expanded="false" signature="7729:7735" ph=" }" />
+            <marker date="1588581417110" expanded="false" signature="7772:7783" ph=" { " />
+            <marker date="1588581417110" expanded="false" signature="7805:7811" ph=" }" />
+            <marker date="1588581417110" expanded="true" signature="7860:7956" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="8017:8117" ph="{...}" />
+            <marker date="1588581417110" expanded="true" signature="8039:8059" ph="transactionAware" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/EurekaClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1531#1581#0" expanded="true" />
+            <element signature="e#1531#1581#0" expanded="true" />
+            <element signature="e#1531#1581#0" expanded="true" />
+            <element signature="e#1531#1581#0" expanded="true" />
+            <element signature="e#1843#1941#0" expanded="true" />
+            <element signature="e#1843#1941#0" expanded="true" />
+            <element signature="e#1843#1941#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1044#1102#1" expanded="true" />
+            <element signature="e#1205#1268#1" expanded="true" />
+            <element signature="e#1420#1509#1" expanded="true" />
+            <element signature="e#1519#1556#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/mapper/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/mapper/ProductMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/service/ProductServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+        <state relative-caret-position="329">
+          <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#714#715#0" expanded="true" />
@@ -764,11 +877,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.8.RELEASE/spring-tx-4.3.8.RELEASE.jar!/org/springframework/transaction/annotation/Propagation.class">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-125">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="101">
+          <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#674#727#1" expanded="true" />
+            <element signature="e#855#897#1" expanded="true" />
+            <element signature="e#922#979#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mujiejun/handler/ProductMegHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

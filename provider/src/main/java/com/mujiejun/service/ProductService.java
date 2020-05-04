@@ -8,4 +8,5 @@ import java.util.List;
 public interface ProductService {
 
     public Product findProductById(Integer id);
+    public int addProduct(Product product);
 }

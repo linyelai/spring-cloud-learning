@@ -8,4 +8,6 @@ import org.apache.ibatis.annotations.Param;
 public interface ProductMapper {
 
     public Product findProductById(@Param("id") Integer id);
+
+    public int addProduct(Product product);
 }

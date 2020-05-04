@@ -20,4 +20,10 @@ public class ProductServiceImp  implements  ProductService{
     public Product findProductById(Integer id) {
         return productMapper.findProductById(id);
     }
+
+    @Override
+    public int addProduct(Product product) {
+
+        return productMapper.addProduct(product);
+    }
 }
