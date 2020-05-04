@@ -17,4 +17,11 @@ public class TestController {
         String result = hello.hello();
         return "client1"+result;
     }
+
+    @RequestMapping("/admin")
+    public String admin()
+    {
+
+        return "admin";
+    }
 }
